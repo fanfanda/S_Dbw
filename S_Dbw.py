@@ -40,7 +40,7 @@ class S_Dbw():
                 if i==j:
                     continue
                 result += self.density([i,j])/max(density_list[i],density_list[j])
-        return result/self.k*(self.k-1)
+        return result/(self.k*(self.k-1))
     
     def Scat(self):
         theta_s = np.std(self.data,axis=0)
