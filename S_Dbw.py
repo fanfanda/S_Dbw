@@ -1,6 +1,6 @@
 import numpy as np
 import math
-import sys
+
 class S_Dbw():
     def __init__(self,data,data_cluster,centers_id):
         self.data = data
