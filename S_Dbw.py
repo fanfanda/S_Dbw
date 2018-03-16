@@ -3,6 +3,11 @@ import math
 
 class S_Dbw():
     def __init__(self,data,data_cluster,centers_id):
+        """
+        data --> raw data
+        data_cluster --> The category that represents each piece of data(the number of category should begin 0)
+        centers_id --> the center_id of each cluster's center
+        """
         self.data = data
         self.data_cluster = data_cluster
         self.centers_id = centers_id
@@ -16,6 +21,9 @@ class S_Dbw():
         
 
     def density(self,density_list=[]):
+        """
+        compute the density of one or two cluster(depend on density_list)
+        """
         density = 0
         centers_id1 = self.centers_id[density_list[0]]
         if len(density_list) == 2:
@@ -52,13 +60,17 @@ class S_Dbw():
             theta_i = np.std(matrix_data_i,axis=0)
             sum_theta_2norm += math.sqrt(np.dot(theta_i.T,theta_i))
         return sum_theta_2norm/(theta_s_2norm*self.k)
+
     def S_Dbw_result(self):
+        """
+        compute the final result
+        """
         return self.Dens_bw()+self.Scat()
 
 #just for tests
-data = np.array([[1,2,1],[0,1,4],[3,3,3]])
-data_cluster = np.array([1,0,1])
-centers_id = np.array([1,0])
+data = np.array([[1,2,1],[0,1,4],[3,3,3],[2,2,2]])
+data_cluster = np.array([1,0,1,2]) # The category represents each piece of data belongs
+centers_id = np.array([1,0,3]) # the cluster's num is 3
 
 a = S_Dbw(data,data_cluster,centers_id)
-a.S_Dbw_result()
+print(a.S_Dbw_result())
