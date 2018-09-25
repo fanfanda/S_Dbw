@@ -3,7 +3,7 @@ S_Dbw validity index.
 If you think the code is useful,please give me a star ^_^!
 
 ## paper link
-&nbsp; [Clustering Validity Assessment: Finding the optimal partitioning of a data set](https://pdfs.semanticscholar.org/dc44/df745fbf5794066557e52074d127b31248b2.pdf)
+&nbsp; [Clustering Validity Assessment: Finding the optimal partitioning of a data set](https://pdfs.semanticscholar.org/dc44/df745fbf5794066557e52074d127b31248b2.pdf) </br>
 &nbsp; [Understanding of Internal Clustering Validation Measures](http://datamining.rutgers.edu/publication/internalmeasures.pdf)
 
 ## description
