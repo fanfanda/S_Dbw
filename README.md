@@ -7,4 +7,4 @@ If you think the code is useful,please give me a star ^_^!
 &nbsp; [Understanding of Internal Clustering Validation Measures](http://datamining.rutgers.edu/publication/internalmeasures.pdf)
 
 ## description
-&nbsp; 这里实现的S_Dbw适用于评价k-medoids聚类算法，该算法的聚类中心不同于k-means，是具体的某一个点，所以有人想用与其他的聚类算法评价，需要稍微修改代码
+The S_Dbw implemented here is suitable for evaluating the k-medoids clustering algorithm. The clustering center of the algorithm is different from k-means, which is a specific point. Therefore, some people want to use other clustering algorithms to evaluate, and need to modify the code slightly.
