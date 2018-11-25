@@ -12,7 +12,7 @@ $$Dens\_bw(c) = \frac{1}{c\cdot(c-1)}\sum_{i=1}^{n}(\sum_{{{j=1}\atop{i\neq{j}}}
 
 $$Scat(c) = \frac{1}{c}\sum_{i=1}^{c}\frac{\left\|\delta(v_i)\right\|}{\left\|\delta(S)\right\|} \tag{1.2}$$
 
-$$E = mc^2$$
+$\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t$
 
 ## paper link
 1.[Clustering Validity Assessment: Finding the optimal partitioning of a data set](https://pdfs.semanticscholar.org/dc44/df745fbf5794066557e52074d127b31248b2.pdf)
