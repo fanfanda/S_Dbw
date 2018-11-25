@@ -13,4 +13,4 @@ S_Dbw consists of two items, inter-cluster density and intra-cluster variance. W
 
 2.[Understanding of Internal Clustering Validation Measures](http://datamining.rutgers.edu/publication/internalmeasures.pdf)
 
-3.[blog](https://blog.csdn.net/steven_ffd/article/details/84451707)
+3.[csdn blog:S_Dbw](https://blog.csdn.net/steven_ffd/article/details/84451707)
