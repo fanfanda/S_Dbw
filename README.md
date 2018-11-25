@@ -13,7 +13,6 @@ $$Dens\_bw(c) = \frac{1}{c\cdot(c-1)}\sum_{i=1}^{n}(\sum_{{{j=1}\atop{i\neq{j}}}
 $$Scat(c) = \frac{1}{c}\sum_{i=1}^{c}\frac{\left\|\delta(v_i)\right\|}{\left\|\delta(S)\right\|} \tag{1.2}$$
 
 ## paper link
-&nbsp; [Clustering Validity Assessment: Finding the optimal partitioning of a data set](https://pdfs.semanticscholar.org/dc44/df745fbf5794066557e52074d127b31248b2.pdf) </br>
-&nbsp; [Understanding of Internal Clustering Validation Measures](http://datamining.rutgers.edu/publication/internalmeasures.pdf)
+1.[Clustering Validity Assessment: Finding the optimal partitioning of a data set](https://pdfs.semanticscholar.org/dc44/df745fbf5794066557e52074d127b31248b2.pdf)
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+2.[Understanding of Internal Clustering Validation Measures](http://datamining.rutgers.edu/publication/internalmeasures.pdf)
